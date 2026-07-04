@@ -1,0 +1,12 @@
+On the fifth day of my internship, I focused on planning the next stages of the virtual piano project.
+The development process to be followed after the procurement of the required hardware was
+reviewed, and the sequence of the project tasks was determined.
+
+As part of this planning process, I evaluated how the image processing applications would be 
+integrated with the ESP32-CAM, identified the software components required for the system, and 
+planned the overall structure of the machine learning applications that will be incorporated into the 
+project in the later stages. In addition, the possible technical requirements of the project were 
+considered, and an appropriate development approach was established.
+
+By the end of the day, the project roadmap had been finalized, and the necessary preparations for the 
+implementation phase following the arrival of the hardware had been completed.
