@@ -1,0 +1,19 @@
+On the third day of my internship, I implemented the Canny edge detection algorithm using the 
+OpenCV library. The purpose of this task was to apply the theoretical knowledge gained on the 
+previous day and observe the algorithm's performance in practice. Python was used as the 
+programming language, and a sample image was selected for the experiments.
+
+First, the original image was loaded into the program. To reduce image noise, Bilateral Filter, Median 
+Blur, and Gaussian Blur techniques were applied, and their outputs were compared. The filtered 
+images are presented in Figure 1, Figure 2, and Figure 3 in Appendix 1.
+
+Next, the image was converted into grayscale, which is a required preprocessing step for the Canny 
+algorithm. The grayscale image is shown in Figure 4 in Appendix 1.
+
+Finally, the Canny edge detection function provided by OpenCV was applied to the image. The 
+resulting output successfully highlighted the main edges of the object while suppressing most
+unnecessary background details. The final edge detection result is presented in Figure 5 in Appendix 1.
+
+By the end of the day, I gained practical experience in implementing the Canny edge detection 
+algorithm using OpenCV and developed a better understanding of the image processing steps that 
+will be used in the virtual piano project.
