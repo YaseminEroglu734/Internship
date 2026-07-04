@@ -1,0 +1,22 @@
+On the second day of my internship, I studied the fundamental principles of the Canny edge detection 
+algorithm, which had been assigned by my supervisor as part of the preliminary preparation for the 
+project. Since image processing will play a significant role in the development of the virtual piano 
+system, understanding the operating principles of this algorithm was considered one of the initial steps
+of the project development process.
+
+During the research, I first examined the purpose of edge detection in digital image processing and its 
+importance in computer vision applications. I learned that edge detection enables the identification of 
+object boundaries by detecting significant intensity changes within an image, allowing objects to be 
+distinguished from the background. It was also understood that this information plays an important 
+role in applications such as object recognition, motion analysis, and hand gesture detection.
+
+In addition, I investigated the advantages of the Canny algorithm compared to other edge detection 
+methods. It was found that the algorithm is widely used in image processing applications because of 
+its robustness against noise, its ability to minimize false edge detections, and its high accuracy in 
+determining edge locations.
+
+By the end of the day, I had gained a sufficient understanding of the fundamental working principle, 
+purpose, and significance of the Canny edge detection algorithm in the field of image processing. The
+knowledge acquired through this research is expected to contribute to the development of the image 
+processing components of the project in the following stages and to facilitate a better understanding of
+potential challenges that may arise during the implementation process.
