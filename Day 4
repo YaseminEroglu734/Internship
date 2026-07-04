@@ -1,0 +1,11 @@
+On the fourth day of my internship, I focused on identifying and procuring the hardware required
+for the development of the virtual piano project. The technical specifications of the components to be 
+used in the project were examined, their compatibility with the system was evaluated, and the 
+procurement process for the required hardware was planned.
+
+As part of this process, an FTDI USB-to-TTL converter was obtained to enable programming and 
+communication with the ESP32-CAM development board. In addition, the other hardware 
+components to be used in the project were reviewed and evaluated for their suitability.
+
+By the end of the day, the hardware procurement process had been initiated, and the necessary 
+preparations were completed to continue the development of the project.
