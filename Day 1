@@ -1,0 +1,26 @@
+On the first day of my internship, I attended a meeting with my supervisor in the laboratory to discuss
+and plan the project that would be carried out throughout the internship. During the meeting, several 
+project ideas were evaluated, the hardware and software technologies to be used were discussed, and 
+the overall scope of the project was determined. After the evaluation process, it was decided to
+develop a camera-based Virtual Piano system using the ESP32-CAM development board.
+
+The primary objective of the project is to enable users to produce musical notes corresponding to
+virtual piano keys by detecting hand movements through a camera, eliminating the need for a physical
+piano keyboard. During the meeting, my supervisor explained that the project would not be limited to 
+piano sounds only. In the later stages of development, sounds from different musical instruments will
+also be integrated into the system. This approach aims to create a more comprehensive and interactive 
+musical application that allows users to select and play different instrument sounds.
+
+It was also planned to enhance the project by incorporating machine learning techniques in future
+stages. In this context, image processing methods will be combined with machine learning algorithms 
+to improve the accuracy of hand gesture detection. This approach is expected to increase the overall
+performance of the system and enable it to adapt to different usage scenarios more effectively.
+
+As a preparation for the project development process, my supervisor asked me to study the Canny 
+edge detection algorithm, which is one of the most widely used algorithms in the field of image 
+processing.
+
+At the end of the day, the project topic was finalized, the main hardware and software technologies
+were identified, and a development roadmap was established. In addition, the Canny edge detection 
+algorithm was selected as the first research topic, providing a solid foundation for the image 
+processing tasks that will be carried out in the following stages of the internship.
