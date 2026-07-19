@@ -1,0 +1,14 @@
+Work focused on integrating the video stream obtained from the ESP32-CAM into 
+the existing virtual piano application. The MediaPipe-based hand detection system,
+which had previously been developed for the computer's built-in camera, was modified 
+to process frames received from the ESP32-CAM.
+
+After decoding the incoming video frames in Python, each frame was processed using the 
+MediaPipe Hands model. The coordinates of the detected hand landmarks were extracted 
+and integrated with the previously developed virtual piano system. As a result, hand 
+movements could be detected using the ESP32-CAM instead of the computer's built-in camera.
+
+Several tests were performed to evaluate the effect of network latency on hand tracking 
+performance. The influence of frame rate variations on detection accuracy was observed, 
+and several code optimizations were implemented to achieve smoother real-time performance. 
+The system was also tested under different lighting conditions to evaluate its overall reliability.
