@@ -1,0 +1,18 @@
+After obtaining the FTDI converter, work began on migrating the project from the 
+computer's built-in camera to the ESP32-CAM platform. First, the hardware connections 
+between the FTDI module and the ESP32-CAM were completed. The power supply, TX and 
+RX communication pins, and the IO0 programming pin were connected according to the 
+manufacturer's documentation. The accuracy of the wiring was verified using a multimeter 
+and wiring diagrams.
+
+Next, the ESP32 board support package was installed in the Arduino IDE, and the ESP32-CAM
+module was configured as the target development board. The required drivers were installed, 
+and communication with the board was established through the serial port. Sample applications 
+were uploaded to verify that the ESP32-CAM could be programmed successfully.
+
+Afterward, the CameraWebServer example provided for the ESP32-CAM was uploaded to the board, 
+and the wireless network connection was configured. The board was connected to the local Wi-Fi 
+network, and its IP address was obtained through the Serial Monitor. The camera interface was 
+then accessed through a web browser to test the live video stream. The successful operation of 
+the ESP32-CAM was confirmed, and the next stage of integrating it with the Python application 
+was planned.
