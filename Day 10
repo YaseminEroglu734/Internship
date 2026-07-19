@@ -1,0 +1,19 @@
+Optimization studies were carried out to improve the stability of the 
+communication between the ESP32-CAM and the Python application. During the 
+initial tests, it was observed that the video stream occasionally disconnected, 
+requiring the connection to be re-established. To address this issue, the image 
+acquisition mechanism was redesigned to automatically reconnect whenever the 
+connection was lost.
+
+The buffering mechanism used for processing the MJPEG stream over HTTP was also 
+improved to increase reliability. Problems caused by incomplete data packets were 
+minimized, and exception handling was added to prevent the application from terminating 
+unexpectedly during connection failures. Instead, the application was able to recover 
+automatically by reconnecting to the camera stream.
+
+After implementing these improvements, the system was tested again. The MediaPipe-based 
+hand detection algorithm and the virtual piano application were executed simultaneously 
+using the real-time video stream from the ESP32-CAM. Compared with previous tests, a more 
+stable and reliable video stream was achieved. Based on the obtained results, further 
+optimization and the implementation of multi-finger support were planned for the next 
+stage of the project.
