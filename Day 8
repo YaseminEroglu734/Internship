@@ -1,0 +1,16 @@
+Development continued with the goal of using the video stream published by the 
+ESP32-CAM within the Python application. Initially, the MJPEG streaming format 
+used by the ESP32-CAM was studied, and different methods for processing this 
+type of stream in Python were investigated.
+
+Using the requests library, a connection was established to the HTTP video stream g
+enerated by the ESP32-CAM. The incoming data packets were analyzed, and methods for 
+extracting individual JPEG frames from the MJPEG stream were implemented. The 
+extracted frames were reconstructed with OpenCV and displayed successfully on the 
+screen.
+
+During this stage, several issues were encountered, including intermittent connection 
+losses, incomplete data packets, and occasional freezing of the video stream. Different 
+camera resolutions, connection parameters, and network configurations were tested to 
+determine the causes of these problems. By the end of the day, the ESP32-CAM video stream 
+had been successfully transferred to the Python environment with satisfactory performance.
