@@ -1,0 +1,19 @@
+Since the FTDI converter had not yet been obtained, the project development was 
+continued using the computer's built-in camera. First, real-time video streaming
+was established by accessing the camera with Python and the OpenCV library.
+After successfully obtaining the camera feed, the design of the virtual piano 
+interface was initiated. Using OpenCV's drawing functions, piano keys of specific
+dimensions were displayed on the screen, and each key was assigned to its
+corresponding musical note.
+
+Next, the MediaPipe Hands library was integrated into the project to enable hand
+detection. The required libraries were installed, allowing the hand and its 
+landmarks to be detected in real time. The coordinates of the 21 hand landmarks 
+identified by the model were examined and evaluated for use within the application.
+
+In the final stage, the audio files corresponding to the piano notes were loaded
+into the program. To simplify the initial implementation, only the tip of the 
+thumb was used as the control point. When the thumb entered the area of a virtual 
+piano key, the corresponding note was played. As a result, the first prototype of 
+the virtual piano, operating with the computer's built-in camera, was successfully 
+developed.
